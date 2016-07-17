@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10743001-1434-4ebc-9edd-c3ddd12daabb" name="Default" comment="conmit test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/post.js" afterPath="$PROJECT_DIR$/models/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="10743001-1434-4ebc-9edd-c3ddd12daabb" name="Default" comment="" />
     <list id="de8dbedf-901b-4343-a91e-757ab628b220" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -331,7 +328,7 @@
       <option name="presentableId" value="Default" />
       <updated>1456823663565</updated>
       <workItem from="1466233281927" duration="7969000" />
-      <workItem from="1468744106189" duration="2378000" />
+      <workItem from="1468744106189" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="conmit test">
       <created>1468744253898</created>
@@ -344,7 +341,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10347000" />
+    <option name="totallyTimeSpent" value="10749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
