@@ -1,0 +1,436 @@
+/**scratch_card**/
+.scratch_title {
+	width: 100%;
+	background: #E48156;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.win_info {
+	max-width: 400px;
+	min-width: 300px; 
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.win_info p {
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	color: #662C17;
+	font-size: 12px;
+}
+
+.page_inner {
+	
+}
+
+#scratch_section {
+	max-width: 400px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.scratch-banner {
+	max-width: 400px;
+	min-width: 300px;
+}
+.scratch-banner img {
+	max-width: 100%;	
+}
+.user_info {
+}
+
+.user_info:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.user_info_left {
+	position: absolute;
+	left: 5px;
+	padding-left: 20px;
+	background: url('../images/head_img.png') no-repeat left;
+	background-size: 20%;
+}
+
+.user_info_left span {
+	color: #fff;
+}
+
+.user_info_right a {
+	width: 50px;
+	height: 20px;
+	display: block;
+	line-height: 20px;
+	padding: 0 4px;
+}
+
+.scratch-area {
+	position: relative;
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
+	background: url('../images/scratch-bg-0716.png') no-repeat top;
+	background-size: 100%;
+	z-index: 0;
+}
+
+/* background: url('../images/scratch_area.png') no-repeat center; z-index: 2; background-size: 85%;***/
+
+
+.start_btn {
+	width: 170px;
+	height: 40px;
+	margin: 0 auto;
+	top:50%;
+	margin-top:-28px;
+}
+
+
+.count {
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.counts{
+	float:left;
+}
+/* .scratch_quickly{
+	border-radius: 16px;
+	padding: 0px 6px;
+	width: 88px;
+	margin: 0 auto;
+	border: 1px solid #FFF;
+	text-align: center;
+	background-color:  #D51B61;
+	overflow: hidden;
+} */
+
+/* .scratch_quickly_span{
+	background: url('../images/scratch_quickly_btn.png') no-repeat left;
+	background-size: 18px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 10px;
+	color: #FFF;
+	
+} */
+
+.scratch_quickly_span {
+	background-size: 18px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #FFF;
+	border-radius: 16px;
+	border: 1px solid;
+	width: 30%;
+	margin: 5px;
+	left: 90px;
+}
+
+.scratch_quickly {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #666666;
+	overflow: hidden;
+	position: absolute;
+	z-index:100;
+}
+
+.gradient_font{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DEBB47), to(#248F24));
+							color: transparent;
+						/*-webkit-text-fill-color: transparent;*/
+							-webkit-background-clip: text;
+}
+
+
+
+.add_roles a {
+	font-size: 12px;
+	height: 28px;
+	display: block;
+	width: 20%;
+	float: right;
+	line-height: 28px;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+.scratch_box {
+	position: relative;
+}
+#lotteryResult {
+	background-color: #FFFCD9;
+}
+
+.lottery-result-box {
+	padding-top: 70px;
+	margin-left: 110px;
+	text-align: left;
+	color: #F8C128;
+}
+.lottery-result-big {
+	font-size: 22px;
+	line-height: 30px;
+	height: 50px;
+	font-weight: 700;
+}
+.lottery-result-small {
+	font-size: 16px;
+	font-weight: 700;
+}
+#lotteryResultDialog{
+	overflow: hidden;
+}
+
+
+.lottery-box {
+	cursor: default;
+	margin-left: 12px;
+	overflow: hidden;
+	width: 274px;
+	height: 212px;
+}
+.lottery-box-div {
+	width: 274px;
+	height: 184px;
+	float: left;
+	background-color: #F4C657;
+}
+.lottery-box-wapper {
+	top:14px;
+	-webkit-transition:1s ease all;
+	-moz-transition:1s ease all;
+	width: 822px;
+	margin-left: -274px;
+}
+.lottery-box-wapper-left {
+	-webkit-transform:translate(-274px);
+	-moz-transform:translate(-274px);
+}
+.lottery-box-wapper-right {
+	-webkit-transform:translate(274px);
+	-moz-transform:translate(274px);
+}
+.lottery-box-wapper:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#lotteryResult {
+	height: 100%;
+}
+.lottery-action-box {
+	position: relative;
+}
+.lottery-action-div {
+	position: absolute;
+	top: 0;
+}
+.lottery-result-dialog-text {
+	color: #4d4d4d;
+	font-size: 14px;
+	text-align: left;
+	margin: 30px 10px 10px;
+	font-weight: bold;
+}
+
+.lottery-result.lottery-win {
+	background: url('../images/yes1.png') no-repeat 16px;
+	background-size: 80px;
+}
+.lottery-result-dialog.lottery-win .lottery-result-dialog-text{
+	padding:0 10px 0 60px;
+	background:url('../images/yes1.png') no-repeat left;
+	background-size:42px;
+	line-height: 30px;
+}
+
+.lottery-result.lottery-notwin {
+	background: url('../images/sad.png') no-repeat 16px;
+	background-size: 80px;
+}
+.lottery-result-dialog.lottery-notwin .lottery-result-dialog-text{
+	padding-left: 60px;
+	padding-top: 10px;
+	background: url('../images/sad.png') no-repeat left top;
+	background-size: 42px;
+	min-height: 52px;
+}
+.lottery-notwin .lottery-result-box {
+	color: #4d4d4d;
+}
+
+
+/**common.css***/
+.title {
+	width: 200px;
+	height: 24px;
+	line-height: 24px;
+	margin: 10px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.haswin_list {
+	max-width: 400px;
+	min-width: 300px;
+	height: 286px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.haswin_list li {
+	line-height: 30px;
+}
+.win_info_wapper{
+	text-align: left;
+	padding-left: 20px;
+	list-style: none;
+}
+/****/
+.win {
+	background: #FFFCD9;
+	/***
+	display: none; 
+	margin: 0 auto;  
+	max-width: 250px;
+	 min-width: 200px; 
+	 margin:0 auto;
+	 padding: 12px 5px ;
+	 **/
+}
+
+.win p {
+	color: #4d4d4d;
+	font-size: 14px;
+	text-align: left;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.win img {
+	float: left;
+	width: 40px;
+	height: 100%;
+	padding: 0 10px 0 0;
+}
+
+.confirm {
+	display: block;
+	padding: 3px;
+	width: 80px;
+	/**float:left;**/
+	text-align: center;
+	line-height: 24px;
+	margin: 0 auto;
+	background-color: #D01F21;
+	border-radius: 2px;
+	color: #FFF;
+	box-shadow: 0 2px 0px #B54122;
+}
+
+.dialog-tips{
+	margin-top:100px;
+	z-index: 9999;
+	display: none;
+	margin:0 auto;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	border-radius: 2px;
+}
+.dialog-tips >div:first-child {
+	background-color:#F9F3E5;	
+}
+.dialog-tips span{
+	display:block;
+	color: #ca101a;
+	font-size: 14px;
+	text-align: left;
+	padding: 30px 20px 10px 20px;
+}
+.close_btn{ 
+	padding: 10px 24px;
+	color: #FFFFFF;
+	margin-right: 12px;
+}
+.close_p{
+	margin:10px 0;
+	padding-top: 10px;
+}
+.member_btn{
+	background: #D03030; 
+	padding: 10px 12px;
+	color: #fff;
+}
+.tips_btn{
+	line-height: 24px; 
+	text-align: center;
+	border-radius:2px;
+	background-color:#44BFE1;
+}
+#lotteryBlankDiv {
+	width: 100%;
+	height: 100%;
+	background: url('../images/scratch-area-0717.png') no-repeat ;
+	background-size: 100%;
+}
+
+.text-red {
+	-webkit-animation:bounceOut 1s .2s ease both;
+	-moz-animation:bounceOut 1s .2s ease both;}
+	@-webkit-keyframes bounceOut{
+	0%{-webkit-transform:scale(1)}
+	25%{-webkit-transform:scale(.95)}
+	50%{opacity:1;
+	-webkit-transform:scale(1.1)}
+	100%{opacity:0;
+	-webkit-transform:scale(.3)}
+	}
+	@-moz-keyframes bounceOut{
+	0%{-moz-transform:scale(1)}
+	25%{-moz-transform:scale(.95)}
+	50%{opacity:1;
+	-moz-transform:scale(1.1)}
+	100%{opacity:0;
+	-moz-transform:scale(.3)}
+}
+.bounceIn {
+	-webkit-animation:bounceIn 1s .2s ease both;
+	-moz-animation:bounceIn 1s .2s ease both;}
+	@-webkit-keyframes bounceIn{
+	0%{opacity:0;
+	-webkit-transform:scale(.3)}
+	50%{opacity:1;
+	-webkit-transform:scale(1.05)}
+	70%{-webkit-transform:scale(.9)}
+	100%{-webkit-transform:scale(1)}
+	}
+	@-moz-keyframes bounceIn{
+	0%{opacity:0;
+	-moz-transform:scale(.3)}
+	50%{opacity:1;
+	-moz-transform:scale(1.05)}
+	70%{-moz-transform:scale(.9)}
+	100%{-moz-transform:scale(1)}
+}

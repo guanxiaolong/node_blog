@@ -42,6 +42,7 @@ app.listen(app.get('port'), function () {
   console.log('Ecpress server listening on port'+app.get('port'))
 })
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'webapp')));
 
 routes(app);
 
