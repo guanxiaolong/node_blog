@@ -7,9 +7,7 @@ var path = require('path');
 var _ = require("underscore")._;
 User = require('../models/user.js');
 Post = require('../models/post.js');
-const LOG = function (val) {
-	console.log(val);
-};
+var logger = require("../util/logHelper").helper;
 module.exports = function (app) {
 	app.get('/', function (req, res) {
 		Post.get(null, function (err, posts) {
@@ -146,8 +144,8 @@ module.exports = function (app) {
 		next();
 	}
 	app.get('/lotterypage', function (req, res) {
-		console.log(__filename);
-		res.sendFile(path.join('i://node.js//Express//git//node_blog//webapp//', 'index1.html'));
+		logger.writeInfo('进入页面');
+		res.sendFile(path.join(process.cwd(), '//webapp//index1.html'));
 		//res.render('index', { title: TITLE });
 	});
 	app.get('/lottery', function (req, res) {
